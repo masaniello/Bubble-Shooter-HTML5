@@ -751,8 +751,8 @@ window.onload = function() {
             
             context.fillStyle = "#ffffff";
             context.font = "24px Verdana";
-            drawCenterText("Game Over!", level.x, level.y + level.height / 2 + 10, level.width);
-            drawCenterText("Click to start", level.x, level.y + level.height / 2 + 40, level.width);
+            drawCenterText("I toscani hanno vinto - Game Over!", level.x, level.y + level.height / 2 + 10, level.width);
+            drawCenterText("Click per cominciare a giocare con i Toscani", level.x, level.y + level.height / 2 + 40, level.width);
         }
     }
     
@@ -769,7 +769,7 @@ window.onload = function() {
         // Draw title
         context.fillStyle = "#ffffff";
         context.font = "24px Verdana";
-        context.fillText("Bubble Shooter Example - Rembound.com", 10, 37);
+        context.fillText("I Toscani hanno rovinato questo paese", 10, 37);
         
         // Display fps
         context.fillStyle = "#ffffff";
